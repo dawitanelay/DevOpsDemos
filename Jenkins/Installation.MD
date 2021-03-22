@@ -7,12 +7,12 @@ Jenkins is a free and open source automation server. It helps automate the parts
 1. EC2 RHEL 8.x Instance 
    - With Internet Access
    - Security Group with Port `8080` open for internet
-1. Java v1.11.x 
+1. Java v1.8.x 
 
 ## Install Java
 We will be using open java, Get latest version from http://openjdk.java.net/install/
 ```sh
-yum install java-1.11*
+yum install java-1.8*
 #yum -y install java-1.8.0-openjdk
 ```
 
